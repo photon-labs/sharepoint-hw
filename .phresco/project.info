@@ -1,0 +1,1 @@
+{"pilotid":0,"name":"sharepoint-hw","code":"PHR_sharepoint-hw","version":"1.0.0","description":" sharepoint hw","technology":{"id":"tech-sharepoint","name":"Sharepoint","servers":[{"id":3,"name":"IIS","versions":["7.5"],"description":"IIS Server"}],"emailSupported":false,"versions":["3.5"]},"application":"apptype-webapp","pilotProjectName":"","projectCode":""}
