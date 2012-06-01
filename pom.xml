@@ -5,6 +5,14 @@
     <artifactId>PHR_sharepoint-hw</artifactId>
     <name>PHR_sharepoint-hw</name>
     <version>1.0.0</version>
+    
+     <scm>
+        <connection>scm:git:git@github.com:phresco/sharepoint-hw.git</connection>
+        <developerConnection>scm:git:git@github.com:phresco/sharepoint-hw.git</developerConnection>
+        <url>https://github.com/phresco/sharepoint-hw</url>
+    </scm>
+    
+    
     <build>
         <sourceDirectory>source</sourceDirectory>
         <plugins>
