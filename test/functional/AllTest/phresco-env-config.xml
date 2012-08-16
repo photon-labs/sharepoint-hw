@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  ###
+  Archetype - Sharepoint
+  
+  Copyright (C) 1999 - 2012 Photon Infotech Inc.
+  
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+       http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  ###
+  -->
+
+<environment> <!-- Table[0]-->
+      
+  <Server>
+    <!-- sharepoint URL Configurations(Table[1] index (0-4)) -->
+    <!--index 0--> <context>/Pages/Default.aspx</context>
+    <!--index 1--> <protocol>http</protocol>
+    <!--index 2--> <host>framework-win2</host>
+    <!--index 3--> <port>2020</port>
+  </Server>
+  <!--index 1--><browser>iexplore</browser>
+  <!--index 2--><errorcomment>Selenium Server Should be Start</errorcomment>
+  <!--index 3--><waitforpagetoload>20000</waitforpagetoload>
+  <!--index 4--><siteactions_link>//a[contains(text(),'Site Actions')]</siteactions_link>
+  <!--index 5--><siteactions_editappl_link>//td[@id='ctl00_PlaceHolderTopNavBar_SiteActionsMenuMain_ctl00_wsaEditPage']/label/div/b/span</siteactions_editappl_link>
+  <!--index 6--><siteactions_editappl_helloedit_image>//a[@id='WebPartWPQ6_Close']/img</siteactions_editappl_helloedit_image>
+  <!--index 7--><siteactions_editappl_helloedit_image_pages>//a[contains(text(),'Page')]</siteactions_editappl_helloedit_image_pages>
+  <!--index 8--><siteactions_editappl_helloedit_readding_undo>//td[@id='ctl00_SPNavigation_ctl01_saUndoCheckout']/label/div/span</siteactions_editappl_helloedit_readding_undo>
+  <!--index 9--><createscreenshots_directory>../../../target/nunit-report/screenshots</createscreenshots_directory>
+  <!--index 10--><searchhelloworldtext_screenshot>../../../target/nunit-report/screenshots/AllTest.HelloWorld.helloWorldTest.png</searchhelloworldtext_screenshot>
+  <!--index 11--><homepage>//a[contains(@href, '/Pages/Default.aspx')]</homepage>
+
+  </environment> 
