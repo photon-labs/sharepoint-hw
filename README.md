@@ -1,4 +1,0 @@
-sharepoint-hw
-=============
-
-sharepoint hw
